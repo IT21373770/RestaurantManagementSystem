@@ -1,0 +1,57 @@
+
+.mapContainer{
+    position:inherit;
+    width:100%;
+    height: 80vh;
+    overflow: auto;
+    margin: auto auto;
+    margin-top: 2rem;
+}
+.positionDiv{
+
+    align-content: center;
+    margin: auto auto;
+    position: relative;
+    width: 105vh;
+    height: 85vh;
+}
+
+#map *{
+    overflow: visible;
+}
+
+
+table{
+    background-image: url('../assets/images/backnew.jpg');
+}
+
+td{
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid #2c0030;
+    padding: 8px;
+
+}
+
+#trs{
+    background-color:#ddd;
+}
+
+.logoutbtn:hover{
+    background-color: rgb(80, 255, 182);
+}
+
+.logoutbtn{
+
+    padding: 1rem 1rem;
+    margin: auto auto;
+    float: center;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(53, 39, 68, 1);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 70%;
+}
+

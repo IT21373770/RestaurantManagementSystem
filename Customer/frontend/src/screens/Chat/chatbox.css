@@ -1,0 +1,33 @@
+.root {
+  margin: '17vh 10vh 0vh 10vh';
+  display: 'flex';
+  height: '60vh';
+  overflow: 'hidden';
+}
+.sidebar{
+  border-color: #d10b0b;
+  background-color: "red";
+  width: 240;
+  border-right: 1px solid ;
+}
+.container{
+  flex: 1;
+  padding: 3;
+}
+.chatContainer {
+  height: '500px'; /* or any desired height */
+  display: "flex";
+  flex-direction: 'column';
+  overflow: 'hidden';
+}
+
+.messageContainer {
+  flex: '1';
+  overflow-y: 'scroll';
+  padding: '10px';
+}
+
+.messageInputContainer {
+  height: '80px'; /* or any desired height */
+  padding: '1px';
+}

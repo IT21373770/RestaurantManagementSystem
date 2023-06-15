@@ -1,0 +1,119 @@
+.btn1 {
+  background-color: #2f0048;
+  padding: 10px;
+  color: #ffff;
+  text-align: center;
+  min-width: 60px;
+}
+
+.btn1:hover{
+  background-color: #ff9c08;
+}
+
+.btn12 {
+  background-color: #2f0048;
+  padding: 10px;
+  color: #ffff;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.FormFAQ {
+
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 15px;
+  color: rgb(21, 12, 47);
+  width: 100%;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.searchbar {
+  font-size: 18px;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 19px;
+}
+
+
+.frmtable {
+  /* background-color: #5468ff; */
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  font-size: 19px;
+  color: rgb(36, 36, 36);
+
+}
+
+.lbl {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.thd {
+  background-color: #2f0048;
+  color: #ffffff;
+}
+
+.editf {
+  background-color: #290349;
+  border-radius: 100px;
+  box-shadow: rgba(25, 95, 226, 0.2) 0 -25px 18px -14px inset,rgba(44, 139, 187, 0.15) 0 1px 2px,rgba(49, 83, 106, 0.15) 0 2px 4px,rgba(52, 7, 164, 0.15) 0 4px 8px,rgba(9, 30, 188, 0.15) 0 8px 16px,rgba(25, 40, 211, 0.15) 0 16px 32px;
+  color: rgb(242, 244, 242);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.editf:hover {
+  /* box-shadow: rgba(21, 23, 22, 0.35) 0 -25px 18px -14px inset,rgba(11, 13, 12, 0.25) 0 1px 2px,rgba(37, 40, 38, 0.25) 0 2px 4px,rgba(36, 38, 36, 0.25) 0 4px 8px,rgba(81, 83, 82, 0.25) 0 8px 16px,rgba(230, 236, 233, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg); */
+  background-color: #514f57;
+}
+
+.editf:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.deletef {
+  background-color: #290349;
+  border-radius: 100px;
+  box-shadow: rgba(25, 95, 226, 0.2) 0 -25px 18px -14px inset,rgba(44, 139, 187, 0.15) 0 1px 2px,rgba(49, 83, 106, 0.15) 0 2px 4px,rgba(52, 7, 164, 0.15) 0 4px 8px,rgba(9, 30, 188, 0.15) 0 8px 16px,rgba(25, 40, 211, 0.15) 0 16px 32px;
+  color: rgb(242, 244, 242);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.deletef:hover {
+  /* box-shadow: rgba(21, 23, 22, 0.35) 0 -25px 18px -14px inset,rgba(11, 13, 12, 0.25) 0 1px 2px,rgba(37, 40, 38, 0.25) 0 2px 4px,rgba(36, 38, 36, 0.25) 0 4px 8px,rgba(81, 83, 82, 0.25) 0 8px 16px,rgba(230, 236, 233, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg); */
+  background-color: #514f57;
+}
+
+.deletef:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
